@@ -29,8 +29,6 @@ def kill(event):
 	if event.state == 0:
 		sys.exit()
 
-
-
 def gas(event):
 	if event.state:
 		print('Vroom')
